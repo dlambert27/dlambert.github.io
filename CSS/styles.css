@@ -50,9 +50,7 @@ background-color: bisque;    background-attachment: fixed;
     text-align: center;
 background-color: black;  }
   .logo img {
-    padding-top: 3%;
-    padding-left: 20%;
-    display: block;
+
     align-items: center;
     justify-content: center;
     text-align: center;

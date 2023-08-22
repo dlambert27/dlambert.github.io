@@ -49,16 +49,28 @@ background-color: bisque;    background-attachment: fixed;
   .logo {
     text-align: center;
 background-color: black;  }
+
   .logo img {
-    padding-top: 3%;
-    padding-left: 20%;
-    display: block;
-    align-items: center;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center; 
     justify-content: center;
-    width: 80%;
-    height: 80%;
   }
-  
+  .homeLogo {
+    text-align: center; }
+
+    .homeLogo img {
+      padding-top: 20%;
+      padding-bottom: 20%;
+      padding-left: 20%;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      height: 80%;
+    }
+
   
   .title {
     background-color: grey;
@@ -85,6 +97,8 @@ background-color: black;  }
     max-width: 400px;
     display: flex;
     margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   
   .container {
@@ -94,8 +108,8 @@ background-color: black;  }
   }
 
   .container .background {
+  margin: 0 auto;
     max-width: 500px;
-    min-height: 500px;
     background-color: grey;
     margin-bottom: 150px;
   }
@@ -154,3 +168,5 @@ background-color: black;  }
   display: flex;
 }
 
+
+  
